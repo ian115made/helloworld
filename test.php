@@ -4,7 +4,7 @@ echo "Hello World" <br>;
 require_once("isdk.php");
 $app = new iSDK;
 // Test Connect
-if ($app->cfgCon("TZ108"))
+if ($app->cfgCon("tz108"))
   {
     echo "connected";
   } else {
